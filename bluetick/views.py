@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from django.shortcuts import redirect
 
+from services.models import Service
+
 def index(request):
     return render(request,"index.html")
 
@@ -11,4 +13,9 @@ def contact(request):
     return render(request,"contact.html")
 
 def services(request):
-    return render(request,"services.html")
+    servicedata = Service.objects.all()
+    data = {
+        'servicedata':servicedata
+    }
+    return render(request,"services.html",data)
+
