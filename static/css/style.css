@@ -172,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  top: -20px;
+  top: 40px;
   background: #4a7ed8;
   content: '';
   left: 50%;
@@ -371,7 +371,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-media-section, #fh5co-intro-section, #fh5co-contact-section,
 #fh5co-product-section, .about-section {
-  padding-bottom: 8em;
+  padding-bottom: 2em;
 }
 @media screen and (max-width: 768px) {
   #fh5co-media-section, #fh5co-intro-section, #fh5co-contact-section,
@@ -603,6 +603,7 @@ ba
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
   border-radius: 7px;
+  margin-bottom: 0px;
 }
 #fh5co-product-section .product-inner .desc {
   margin-top: 1.5em;
