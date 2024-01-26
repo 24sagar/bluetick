@@ -445,9 +445,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 40px;
 }
 .fh5co-cover .fh5co-cover-hero .fh5co-cover-thumb {
-  width: 170px;
-  height: 123px;
-  position: absolute;
+  width: 5em;
+  height: 5.6em;
+  position: fixed;
   top: 0;
   left: 0;
   background-size: cover;
@@ -468,11 +468,11 @@ h1, h2, h3, h4, h5, h6 {
     height: 448px;
   }
   .fh5co-cover .fh5co-cover-hero .fh5co-cover-thumb {
-    height: 448px;
-    width: 100%;
+    height: 5em;
+    width: 4.6em;
   }
   .fh5co-cover .fh5co-cover-hero .desc-thumb {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
@@ -625,7 +625,7 @@ ba
   margin-bottom: 20px;
 }
 .sidebar h2 {
-  font-size: 20px;
+  font-size: 30px;
 }
 .sidebar h3 {
   font-size: 20px;
@@ -639,7 +639,7 @@ ba
 .sidebar .inner .list li a {
   color: rgba(0, 0, 0, 0.4);
 }
-
+/*
 #map {
   width: 100%;
   height: 500px;
@@ -650,7 +650,7 @@ ba
     height: 200px;
   }
 }
-
+*/
 .contact-info {
   margin: 0;
   padding: 0;
@@ -709,56 +709,31 @@ input[type="text"] {
   font-weight: normal;
   font-weight: 18px;
 }
-.footer.footer-logo{
-  color: #006ca5;
-}
-.footer{
-  background: var(--bs-secondary);
-  border: 0;
-}
-.footer.footer-logo{
-  color: #006ca5;
-}
-.footer.social-icons{
-  width: 20px;
- height: 20px;
- margin: 0 5px;
- padding-left:25px
-}
-#footer {
-  padding: 80px 0 40px;
-  margin-bottom: 0%;
-}
-#footer p {
-  font-size: 14px;
-}
-#footer p i.love {
-  color: rgb(47, 0, 255);
-}
-.footer.social-icons{
-  color: #f9f7f7;
-}
-/*** Footer Start ***/
+/*footer*/
 
-.footer .short-link a,
-.footer .help-link a,
-.footer .contact-link a {
-    transition: .5s;
+.footer {
+  background-color: #333;
+  
+  padding: 20px;
+  text-align: center;
 }
 
-.footer .short-link a:hover,
-.footer .help-link a:hover,
-.footer .contact-link a:hover {
-    letter-spacing: 1px;
+.social-icons a :hover{
+color:#006ca5;
+
+}
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 24px;
 }
 
-.footer .hightech-link a:hover {
-    background: var(--bs-secondary);
-    border: 0;
+.copyright {
+  margin-top: 20px;
+  color: #fff;
 }
-
-/*** Footer End ***/
-
+/*end footer*/
 .fh5co-social-icons a {
   padding: 4px 8px;
   color: rgba(0, 0, 0, 0.7);
