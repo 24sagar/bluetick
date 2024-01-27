@@ -7,7 +7,6 @@
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 float-overlay">
 							<h2>About Us</h2>
-							
 						</div>
 					</div>
 				</div>
@@ -18,9 +17,10 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-9">
+						{% for n in aboutusdata %}
 						<div class="about-section">
-							<img class="display-left animate-box" src="/static/images/3.jpg" alt="about"height="250">
-							<div class="poco"><h3 class="animate-box">Personalized Software</h3></div>
+							<img class="display-left animate-box" src="/media/{{n.aboutus_img}}" alt="about"height="250">
+							<div class="poco"><h3 class="animate-box">{{n.aboutus_title}}</h3></div>
 						    <p class="animate-box">
 								"At our company, we turn the digital dreams of our clients into a reality. We work closely with our users throughout development to ensure that we are still aligned with the end-goal. We are committed to producing exceptional software for each of our clients."</p>
 							<img class="display-right animate-box" src="/static/images/17.png" alt="about" height="250">
@@ -72,8 +72,9 @@
 								
 							</div>
 						</div>
+
+								{{n.aboutus_dec}}</p>
+						{% endfor %}
 					</div>
-				</div>
-			</div>
-		</div>
 		{% endblock %}
+		

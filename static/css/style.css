@@ -172,7 +172,11 @@ h1, h2, h3, h4, h5, h6 {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+<<<<<<< HEAD
+  top: 30px;
+=======
   top: 40px;
+>>>>>>> 30d5788e25316a49eaf5bf22c824525a22fc1c76
   background: #4a7ed8;
   content: '';
   left: 50%;
